@@ -2,6 +2,8 @@
 #include <stdbool.h>
 #include <string.h>
 
+#define IS_PRIME(number) (isPrimeNumber(number)) 
+
 // Check whether the number is a prime number or not function
 bool isPrimeNumber(int number)
 {
@@ -19,7 +21,7 @@ void printAllPrimeNumbers(int lowerBound, int upperBound)
 {
     for (int i = lowerBound; i <= upperBound; i++)
     {
-        if (isPrimeNumber(i))
+        if (IS_PRIME(i))
             printf("%d ", i);
     }
 }
