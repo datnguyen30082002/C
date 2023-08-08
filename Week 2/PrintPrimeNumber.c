@@ -2,6 +2,7 @@
 #include <stdbool.h>
 #include <string.h>
 
+// Using preprocessor
 #define IS_PRIME(number) (isPrimeNumber(number)) 
 
 // Check whether the number is a prime number or not function
