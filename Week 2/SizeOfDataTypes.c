@@ -19,13 +19,13 @@ int main()
     {
         // Size of float
         printf("Size of float: %lu bytes\n", sizeof(float));
-        printf("Range of float: %E to %E\n", FLT_MIN, FLT_MAX);
+        printf("Range of float: %e to %e\n", FLT_MIN, FLT_MAX);
     }
     else if (strcmp(dataType, "double") == 0)
     {
         // Size of double
         printf("Size of double: %lu bytes\n", sizeof(double));
-        printf("Range of double: %E to %E\n", DBL_MIN, DBL_MAX);
+        printf("Range of double: %e to %e\n", DBL_MIN, DBL_MAX);
     }
     else if (strcmp(dataType, "char") == 0)
     {
