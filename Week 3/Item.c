@@ -96,11 +96,11 @@ void printRetrievedProduct(int number, char productName[ITEM_NAME], struct Item 
     int found = 0;
 
     // If there is a matching item
-    printf("Product Information:\n");
     for (int i = 0; i < number; i++)
     {
         if (strcmp(productName, items[i].name) == 0)
         {
+            printf("\nProduct Information:\n");
             printProductInfo(&items[i]);
             found = 1;
             break;
